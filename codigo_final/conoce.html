@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accordion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+
+    <main class="vh-100 bg-light d-flex align-items-center">
+
+        <!-- El contenedor de la categorias -->
+        <section id="principal" class="h-75 container-sm mx-auto bg-light" style="max-width: 800px;">
+
+            <h1 class="fs-5 text-primary text-center py-3">...................Preguntas de hollow
+                knithg..................</h1>
+
+
+            <!-- La primera categoria -->
+            <div class="accordion" id="accordionExample">
+
+
+                <div class="accordion-item my-4">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <span class="px-3 text-info">¿Que es Hollow knithg?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h2 class="fs-6 fw-semibold">Hollow Knight es una aventura de acción clásica en 2D
+                                ambientada en un vasto mundo interconectado.</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- La segunda Categoria  -->
+
+                <div class="accordion-item my-4">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <span class="px-3 text-info">¿De que trata hollow knithg?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h2 class="fs-6 fw-semibold">Explora cavernas tortuosas, ciudades antiguas y páramos
+                                mortales.</h2>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- La tercera categoria  -->
+
+                <div class="accordion-item my-4">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <span class="px-3 text-info">¿Quién es el rey de Hollow Knight?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h2 class="fs-6 fw-semibold">El Rey Pálido era el monarca de Hallownest, compañero de la
+                                Dama Blanca y gobernante del Palacio Blanco. Ayudó a los habitantes del reino a pensar
+                                por ellos mismos, llegando incluso a incitar a la tribu de las polillas a seguirlo
+                                también. Estas lo hicieron, dejando olvidada su antigua devoción al Destello.</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- La cuarta categoria  -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+
+                            <span class="px-3 text-info">¿Cómo despertar al buscador de dioses?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="heading4"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h2 class="fs-6 fw-semibold">Una vez en la Pila de Basura, sólo hará falta abrir el sarcófago para liberar al Buscador de Dioses,
+                                coger el Afinador de Dioses y usar el Aguijón Onírico sobre el NPC.</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- La quinta categoria  -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingfar">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefar" aria-expanded="false" aria-controls="collapseThree">
+
+                            <span class="px-3 text-info">¿Qué es el personaje principal de Hollow Knight?</span>
+                        </button>
+                    </h2>
+                    <div id="collapsefar" class="accordion-collapse collapse" aria-labelledby="heading4"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h2 class="fs-6 fw-semibold">Un vagabundo enigmático que desciende a Hallownest llevando solo un clavo roto para defenderse de los
+                                enemigos. Cada uno de nosotros deja una huella de algo cuando morimos.</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingfer">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefer" aria-expanded="false" aria-controls="collapseThree">
+
+                            <span class="px-3 text-info">¿Cómo obtener el Corazón del Vacío?</span>
+                        </button>
+                    </h2>
+                    <div id="collapsefer" class="accordion-collapse collapse" aria-labelledby="heading4"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h2 class="fs-6 fw-semibold">El Corazón del Vacío es un objeto que necesitaremos para poder desbloquear el segundo y el tercer
+                                final. Para conseguirlo, tendremos que ir a la zona llamada "Lugar de nacimiento", la cual se
+                                encuentra justo al fondo del abismo tras una puerta.</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingfir">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefir" aria-expanded="false" aria-controls="collapseThree">
+
+                            <span class="px-3 text-info">¿Cómo activar el panteon en Hollow Knight?</span>
+                        </button>
+                    </h2>
+                    <div id="collapsefir" class="accordion-collapse collapse" aria-labelledby="heading4"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h2 class="fs-6 fw-semibold">El acceso a este panteón se concede después de que se hayan completado los cuatro panteones
+                                anteriores y el jugador haya adquirido Corazón del Vacío.</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingftr">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseftr" aria-expanded="false" aria-controls="collapseThree">
+
+                            <span class="px-3 text-info">¿Quién es el jefe final de Hollow Knight?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseftr" class="accordion-collapse collapse" aria-labelledby="heading4"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h2 class="fs-6 fw-semibold">En este último panteón, tendrá que derrotar al jefe final del juego: Absoluto Destello. Tras
+                                derrotarlo, la Sombra del caballero caerá hacia la masa de vacío y en su lugar aparecerá el Dios de
+                                Dioses, quien atacará al Destello hasta convertirlo en Esencia.</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingfpr">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefpr" aria-expanded="false" aria-controls="collapseThree">
+
+                            <span class="px-3 text-info">¿Cuántos poderes hay en Hollow Knight?</span>
+                        </button>
+                    </h2>
+                    <div id="collapsefpr" class="accordion-collapse collapse" aria-labelledby="heading4"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h2 class="fs-6 fw-semibold">En total, hay hasta 7 habilidades diferentes que desbloqueas conforme vas avanzando en la historia y
+                                que te permitirán adentrarte en nuevas zonas del mapa: Capa de ala de polilla: está en Sendero
+                                Verde, en la siguiente habitación tras el lago de Unn.</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item"></div>
+
+                    <h2 class="accordion-header" id="headingfsr">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefsr" aria-expanded="false" aria-controls="collapseThree">
+
+                            <span class="px-3 text-info">¿Quién es la madre de Hornet Hollow Knight?</span>
+                        </button>
+                    </h2>
+                    <div id="collapsefsr" class="accordion-collapse collapse" aria-labelledby="heading4"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <h2 class="fs-6 fw-semibold">Es la hija del Rey Pálido y Herrah la Bestia. Su nacimiento fue el resultado de un trato para que su
+                                madre se convirtiera en una Soñadora y, como tal, pasó poco tiempo con Herrah. Criada en Nido
+                                Profundo, Hornet sobrevivió a la infección y la caída del reino.</h2>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+        </section>
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
